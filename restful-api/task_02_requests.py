@@ -36,5 +36,9 @@ def fetch_and_save_posts():
             writer.writeheader()
             writer.writerows(posts_data)
 
-        print("Posts have been saved to posts.csv")
+        print("Posts have been saved to posts.csv")  
+         
+
+
+
 
