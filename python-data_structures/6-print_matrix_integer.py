@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+
 def print_matrix_integer(matrix=[[]]):
-    for row in matrix:
-        # Print each integer in the row, formatted with str.format()
-        print(" ".join("{:d}".format(num) for num in row))
+    for row in range(len(matrix)):
+        for column in range(len(matrix[row])):
+            print("{:d}".format(matrix[row][column]), end="")
+            if column < len(matrix[row]) - 1:
+                print(end=" ")
+        print()

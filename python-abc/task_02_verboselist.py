@@ -37,5 +37,4 @@ class VerboseList(list):
         print(f"Popped [{self[index]}] from the list.")
         
         popped = super().pop(index)
-        return popped                                                                 
-~                                                                                          
+        return popped

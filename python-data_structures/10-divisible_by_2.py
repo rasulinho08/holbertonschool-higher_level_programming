@@ -1,6 +1,10 @@
 #!/usr/bin/python3
-def divisible_by_2(my_list=[]):
-    # Create a new list with True or False for each element
-    result = [num % 2 == 0 for num in my_list]
-    return result
 
+def divisible_by_2(my_list=[]):
+    tf_list = []
+    for i in my_list:
+        if i % 2 == 0:
+            tf_list.append(True)
+        else:
+            tf_list.append(False)
+    return tf_list

@@ -1,3 +1,1 @@
-Hello`:wq
-:wq
-
+Python - Object-relational mapping
